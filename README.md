@@ -46,7 +46,7 @@ city_name <- "Wuerzburg"
 plot_building_density(building density_result, density_column, city_name)
 
 # Export the results
-export_build_density(building density_result, path = "output/wurzburg_density.gpkg")
+export_build_density(building density_result, filename = "output/wurzburg_density.gpkg")
 ```
 <img width="520" alt="build_density" src="https://github.com/user-attachments/assets/abf8701a-f74e-4497-80a2-91cce672804f" />
 
@@ -62,7 +62,7 @@ city_name <- "Wurzburg"
 classified_buildings <- classify_osm_buildings(city_name, bbox = "NULL)
 
 # Export the results
-export_classified_gpkg(classified_buildings, path = "output/wurzburg_classified_buildings.gpkg")
+export_classified_gpkg(classified_buildings, filename = "output/wurzburg_classified_buildings.gpkg")
 
 # Visualize the building types
 city_name <- "Wurzburg"
