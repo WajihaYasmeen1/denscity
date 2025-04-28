@@ -43,7 +43,7 @@ building_density_result <- calculate_building_density(city_name, admin_level, bb
 # Visualize the density map
 density_column <- "build_density"
 city_name <- "Wuerzburg"
-plot_building_density(building density_result, density_column, city_name)
+plot_building_density(building_density_result, density_column, city_name)
 
 # Export the results
 export_build_density(building density_result, filename = "output/wurzburg_density.gpkg")
