@@ -53,7 +53,7 @@ export_build_density(building_density_result, filename = 'wue_building_density.g
 
 
 
-### For Building Density
+### For Building Type Classification
 ```
 library(denscity)
 
