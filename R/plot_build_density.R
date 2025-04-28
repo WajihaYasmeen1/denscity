@@ -1,7 +1,7 @@
 #' Title
 #'
 #' @param gdf           #resultant file from the "calculate_building_density" function
-#' @param attribute     #name of the attribute to be plotted, build_density in this case
+#' @param density_column     #name of the attribute to be plotted, build_density in this case
 #' @param city_name     #name of the city
 #'
 #' @returns      # Choropleth map of building density
