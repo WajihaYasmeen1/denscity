@@ -22,7 +22,7 @@
 
 
 
-calculate_building_density <- function(city_name, admin_level, bbox) {
+calculate_building_density <- function(city_name, admin_level, bbox = NULL) {
   #loading required libraries
   library(osmdata)
   library(dplyr)
