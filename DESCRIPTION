@@ -1,0 +1,27 @@
+Package: denscity
+Type: Package
+Title: Calculates Building Density and Classify Building Functional Type Using OSM Buildings
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Wajiha", "Yasmeen",
+      email = "wajiha.yasmeen@stud-mail.uni-wuerzburg.de",
+      role = c("aut", "cre")
+    )
+  )
+Description: denscity allows you to compute the building density and classify building 
+             types of an area using OSM building polygons. Moreover, you can export
+             the resultant GeoDataFrames as GPKG for further analysis in QGIS and 
+             create quick maps.
+License: None
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2,
+    ggspatial,
+    osmdata,
+    prettymapr,
+    sf,
+    viridis
+RoxygenNote: 7.3.2
