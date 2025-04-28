@@ -66,7 +66,7 @@ export_classified_gpkg(classified_buildings, filename = "output/wurzburg_classif
 
 # Visualize the building types
 city_name <- "Wurzburg"
-attribute <- building_type
+attribute <- "building_type"
 plot_building_types(classified_buildings, attribute, city_name)
 
 
